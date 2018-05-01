@@ -2,22 +2,39 @@
 Stylesheet for about
 */
 
-
-main{
-  background-image: url("../img/Coffee.jpg");
-  background-size: cover;
-  padding-top: 30px;
-  background-repeat: no-repeat;
-  height: 500px;    
+@font-face{
+  font-family: roboto;
+  src: url("../fonts/RobotoCondensed-Regular.ttf");
 }
 
-main h1, main p{
+article{
+  background-repeat: no-repeat;  
+  background-image: url("../img/grounds.jpg");
+  background-size: 100%;
+  background-position: center;
+  color: white;
+}
+
+article h1, article p{
   font-family: roboto;
   width: 20%;
   margin: 0 auto;
   text-align: center;
 }
 
-main p{
+article p{
   width: 60%;    
+}
+
+#gallery{
+  background-color: yellow;
+  height: 300px;
+}
+
+#gallery img{
+  float: left;
+  width: 20%;
+  height: auto;
+  margin-top: 1%;
+  padding: 3%; 
 }

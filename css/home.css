@@ -13,7 +13,8 @@ main{
 
 #landing{
   background-image: url("../img/coffee_and_chokolate.JPG");
-  background-size: 100% 100%;
+  background-size: 100%;
+  background-position: center;
   padding-top: 30px;
   background-repeat: no-repeat;
   height: 350px;
@@ -41,8 +42,9 @@ main{
 
 #mondays{
   background-image: url("../img/people.jpg");  
-  background-size: 100% 100%;
+  background-size: 100%;
   background-repeat: no-repeat; 
+  background-position: center;
   height: 350px;
   text-align: center;
 }
