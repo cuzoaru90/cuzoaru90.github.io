@@ -1,0 +1,70 @@
+/*
+Stylesheet for home page/index
+*/
+
+@font-face{
+  font-family: roboto;
+  src: url("../fonts/RobotoCondensed-Regular.ttf");
+}
+
+main{
+  background: white;    
+}
+
+#landing{
+  background-image: url("../img/coffee_and_chokolate.JPG");
+  background-size: 100% 100%;
+  padding-top: 30px;
+  background-repeat: no-repeat;
+  height: 350px;
+}
+
+#landing h1, #landing p{
+  font-family: roboto;
+  width: 35%;
+  margin-left: 30%;
+  text-align: center;
+}
+
+.cycle-slideshow{
+  float: left;
+  width: 50%;
+  border: 2px solid blue;
+  margin-top: 1%;
+  margin-left: 1%;  
+}
+
+.cycle-slideshow img{ 
+  width: 100%; 
+  height: auto 
+}
+
+#mondays{
+  background-image: url("../img/people.jpg");  
+  background-size: 100% 100%;
+  background-repeat: no-repeat; 
+  height: 350px;
+  text-align: center;
+}
+
+#mondays h1{
+  font-family: roboto;
+  width: 35%;
+  margin-left: 30%;
+  clear: both;
+}
+
+#slideshow{
+  float: left;
+  width: 50%;  
+}
+
+#hero-items{
+  margin-left: 60%;  
+}
+
+#hero-items img{
+  display: block; 
+  padding: 2%; 
+}
+
