@@ -108,6 +108,11 @@ header{
   src: url("../fonts/Montserrat-Regular.ttf");
 }
 
+@font-face{
+  font-family: roboto;
+  src: url("../fonts/RobotoCondensed-Regular.ttf");
+}
+
 nav{
   margin-left: 40%;
   width: 40%;
@@ -156,7 +161,8 @@ footer{
 footer div{
   width: 33%;
   float: left; 
-  font-family: montserrat;   
+  font-family: montserrat;
+  font-size: 0.7em;   
 }
 
 #social{

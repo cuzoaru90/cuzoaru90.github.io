@@ -2,22 +2,3 @@
 Stylesheet for contact page
 */
 
-
-main{
-  background-image: url("../img/coffee_and_chokolate.JPG");
-  background-size: cover;
-  padding-top: 30px;
-  background-repeat: no-repeat;
-  height: 500px;    
-}
-
-main h1, main p{
-  font-family: roboto;
-  width: 20%;
-  margin: 0 auto;
-  text-align: center;
-}
-
-main p{
-  width: 70%;    
-}

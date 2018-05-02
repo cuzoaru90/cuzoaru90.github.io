@@ -2,15 +2,6 @@
 Stylesheet for home page/index
 */
 
-@font-face{
-  font-family: roboto;
-  src: url("../fonts/RobotoCondensed-Regular.ttf");
-}
-
-main{
-  background: white;    
-}
-
 #landing{
   background-image: url("../img/coffee_and_chokolate.JPG");
   background-size: 100%;
@@ -28,17 +19,58 @@ main{
 }
 
 .cycle-slideshow{
-  float: left;
-  width: 50%;
-  border: 2px solid blue;
-  margin-top: 1%;
-  margin-left: 1%;  
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 2%;
+  border: 1px solid black;
 }
 
 .cycle-slideshow img{ 
-  width: 100%; 
-  height: auto 
+  width: 100%;
+  height: auto;
 }
+
+.cycle-pager { 
+  text-align: center; 
+  width: 100%; 
+  z-index: 500; 
+  position: absolute; 
+  bottom: 10px; 
+  overflow: hidden;
+}
+
+.cycle-pager span { 
+    font-family: arial; 
+    font-size: 50px; 
+    width: 16px; 
+    height: 16px; 
+    display: inline-block; 
+    color: #ddd; 
+    cursor: pointer; 
+}
+
+#hero-items div{
+  display: inline-block;
+  height: 300px;
+  width: 300px;
+  margin-top: 2%;
+  margin-left: 17%; 
+  font-family: roboto;
+  border: 1px solid black;
+}
+
+#fresh{
+  background-image: url("../img/bitten.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#gif{
+  background-image: url("../img/vetsAdSmall.gif");  
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 
 #mondays{
   background-image: url("../img/people.jpg");  
@@ -56,17 +88,10 @@ main{
   clear: both;
 }
 
-#slideshow{
-  float: left;
-  width: 50%;  
-}
-
-#hero-items{
-  margin-left: 60%;  
+#hero-items{  
 }
 
 #hero-items img{
-  display: block; 
   padding: 2%; 
 }
 
