@@ -6,9 +6,11 @@ Stylesheet for home page/index
   background-image: url("../img/coffee_and_chokolate.JPG");
   background-size: 100%;
   background-position: center;
-  padding-top: 30px;
+  padding: 5%;
   background-repeat: no-repeat;
-  height: 350px;
+  height: 100%;
+  color: #009999;
+  font-size: 1.5em;
 }
 
 #landing h1, #landing p{
@@ -81,8 +83,11 @@ Stylesheet for home page/index
   background-size: 100%;
   background-repeat: no-repeat; 
   background-position: center;
-  height: 350px;
+  height: 100%;
+  padding-bottom: 30%;
+  margin-top: 2%;
   text-align: center;
+  color: white;
 }
 
 #mondays h1{
@@ -92,10 +97,32 @@ Stylesheet for home page/index
   clear: both;
 }
 
-#hero-items{  
+#hero-items div{
+  padding: 2%;
+  max-height: 200px;
+  max-width: 200px;
 }
 
-#hero-items img{
-  padding: 2%; 
+
+
+@media only screen and (max-width: 551px) {
+
+  #landing{
+    font-size: 1.0em;
+  }
+
+  #hero-items div{
+    padding: 2%;
+    max-height: 50px;
+    max-width: 50px;
+  }
+
+  #mondays h1{
+    width: 55%;
+    margin-left: 30%;
+    clear: both;
+  }
+
 }
+
 
