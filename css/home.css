@@ -59,6 +59,11 @@ Stylesheet for home page/index
   border: 1px solid black;
 }
 
+#hero-items h1{
+  position: relative;
+  bottom: 0;
+}
+
 #fresh{
   background-image: url("../img/bitten.jpg");
   background-size: cover;
@@ -70,7 +75,6 @@ Stylesheet for home page/index
   background-size: cover;
   background-repeat: no-repeat;
 }
-
 
 #mondays{
   background-image: url("../img/people.jpg");  
