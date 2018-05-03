@@ -42,13 +42,13 @@ Stylesheet for home page/index
 }
 
 .cycle-pager span { 
-    font-family: arial; 
-    font-size: 50px; 
-    width: 16px; 
-    height: 16px; 
-    display: inline-block; 
-    color: #ddd; 
-    cursor: pointer; 
+  font-family: arial; 
+  font-size: 50px; 
+  width: 16px; 
+  height: 16px; 
+  display: inline-block; 
+  color: #ddd; 
+  cursor: pointer; 
 }
 
 #hero-items div{
@@ -104,8 +104,28 @@ Stylesheet for home page/index
 }
 
 
+@media only screen and (max-width: 780px) {
 
-@media only screen and (max-width: 477px) {
+  #landing{
+    font-size: 1.2em;
+  }
+
+  #hero-items div{
+    padding: 2%;
+    max-height: 100px;
+    max-width: 100px;
+  }
+
+  #mondays h1{
+    width: 55%;
+    margin-left: 30%;
+    clear: both;
+  }
+
+}
+
+
+@media only screen and (max-width: 380px) {
 
   #landing{
     font-size: 1.0em;
@@ -116,6 +136,13 @@ Stylesheet for home page/index
     max-height: 50px;
     max-width: 50px;
   }
+
+  .cycle-pager span {  
+    font-size: 30px; 
+    display: inline-block; 
+    color: #ddd; 
+    cursor: pointer; 
+}
 
   #mondays h1{
     width: 55%;

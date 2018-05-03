@@ -9,6 +9,7 @@ article{
   background-position: center;
   color: white;
   padding-bottom: 4%;
+  font-size: 1.5em;
 }
 
 article h1, article p{
@@ -39,4 +40,12 @@ article p{
 
 #gallery img:first-child{
   margin-left: 10%;
+}
+
+@media only screen and (max-width: 380px) {
+
+  article{
+    font-size: 1.0em;
+  } 
+
 }

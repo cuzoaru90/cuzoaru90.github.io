@@ -320,6 +320,35 @@ footer div{
     /* Style adjustments for viewports that meet the condition */
 }
 
+/* iPhone 5,6,7 plus (portait) and iPad dimensions */
+@media only screen and (max-width: 780px) {
+  body {
+   font-size: 80%;
+  }
+
+  header{
+    padding-bottom: 3%; 
+  }
+
+  nav{
+    margin: 0 auto;  
+    width: 100%;
+  }
+
+  #logo{
+    margin-top: .25%;
+
+  }
+
+  footer div{
+    float: left;
+    width: 33%;  
+  }
+
+}
+
+
+/* iPhone 5,6,7 plus and Galaxy S5 */
 @media only screen and (max-width: 380px) {
   body {
    font-size: 60%;
@@ -335,12 +364,21 @@ footer div{
   }
 
   footer div{
-    float: left;
-    width: 33%;  
+    float: none;
+    margin-left: 30%;
+    margin-top: 8%;
   }
 
   #social img:nth-child(2){
     margin-left: 20%; 
+  }
+
+  #links img{
+    display: block;
+    min-height: 20px;
+    min-width: 20px;
+    margin-left: 5%;  
+    margin-top: 1%; 
   }
 
 }
