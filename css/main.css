@@ -108,7 +108,7 @@ textarea {
    ========================================================================== */
 
 header{
-  background: #9370DB; 
+  background: linear-gradient(to bottom, #9966ff 0%, #ccccff 100%); 
   width: 100%;
   height: 100px;  
 }
@@ -167,7 +167,7 @@ nav li a:hover {
 }
 
 footer{
-  background: #9370DB;
+  background: linear-gradient(to bottom, #9966ff 0%, #ccccff 100%); 
   width: 100%;
   height: 150px;
 }
@@ -197,14 +197,9 @@ footer div{
   margin-left: 38.5%; 
 }
 
-#links img{
-  display: block;
-  min-height: 40px;
-  min-width: 40px;
-  height: 10%;
-  width: 10%;  
-  margin-left: 5%;  
-  margin-top: 1%; 
+#links{
+  text-align: center;
+  margin-top: 5%; 
 }
 
 #links a{

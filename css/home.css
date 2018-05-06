@@ -6,23 +6,44 @@ Stylesheet for home page/index
   background-image: url("../img/coffee_and_chokolate.JPG");
   background-size: 100%;
   background-position: center;
-  padding: 5%;
+  padding: 2.5%;
   background-repeat: no-repeat;
   height: 100%;
-  color: #009999;
+  color: black;
   font-size: 1.5em;
 }
 
-#landing h1, #landing p{
+#landing h1{
   font-family: roboto;
-  width: 35%;
-  margin-left: 30%;
   text-align: center;
 }
 
+#wrapper{
+  width: 35%;
+  margin-left: 30%;
+  border-radius: 6px;
+  background: rgb(230, 230, 230, 0.7); 
+  z-index: 1;
+}
+
+#summary{
+  background-color: #f8f8e6;
+  padding: 3%;
+}
+
+#summary p{
+  width: 35%;
+  margin-left: 30%;
+  font-family: roboto;
+}
+
+#slideshow h1{
+  text-align: center;  
+}
+
 .cycle-slideshow{
-  width: 80%;
-  margin-left: 10%;
+  width: 40%;
+  margin-left: 25%;
   margin-top: 2%;
   border: 1px solid black;
 }
@@ -32,12 +53,16 @@ Stylesheet for home page/index
   height: auto;
 }
 
+.cycle-slideshow img.first{ 
+  display: block;
+}
+
 .cycle-pager { 
   text-align: center; 
   width: 100%; 
   z-index: 500; 
   position: absolute; 
-  bottom: 10px; 
+  bottom: 1px; 
   overflow: hidden;
 }
 
@@ -59,11 +84,6 @@ Stylesheet for home page/index
   margin-left: 17%; 
   font-family: roboto;
   border: 1px solid black;
-}
-
-#hero-items h1{
-  position: relative;
-  bottom: 0;
 }
 
 #fresh{

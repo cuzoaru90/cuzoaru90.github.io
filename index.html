@@ -41,24 +41,29 @@
 
         <main>
           <section id = "landing">
-          <h1>Welcome to Donut Delights</h1>
-          <p>Urbana's go-to breakfast spot since 1971 offers a variety of donuts made from the finest
-             ingredients and coffee that is brewed every 15 minutes. Donut you want to try? 
-          <p>
+          <div id = "wrapper">  
+            <h1>Welcome to Donut Delights</h1>
+          </div>  
           </section>
 
-          <section> 
+          <section id = "summary">
+            <p>Donut Delights is Urbana's go-to breakfast spot. We offer a variety of high-quality donuts and our coffee is brewed every 15 minutes. Donut you want to try a tasty delight? 
+            </p>
+          </section>
+           
+          <section id = "slideshow"> 
+           <h1> Featured Delights </h1>
            <div class="cycle-slideshow"
             data-cycle-fx=scrollHorz
             data-cycle-timeout=2000
             data-cycle-loader=true>
-             <img src="img/bullsHorn.jpg" title = "Bull Horn">
+             <img src="img/bullsHorn.jpg" class ="first" title = "Bull Horn">
              <img src="img/cream.jpg" title = "Boston Cream Delight">
              <img src="img/pinwheels.jpg" title = "Pinwheel">
              <img src="img/treats.jpg" title = "Chocolate Confetti">
              <div class="cycle-pager"></div>
            </div>
-          </section>
+          </section> 
                
            <section id = "hero-items">
              <div id = "fresh">  
@@ -84,9 +89,8 @@
           </div>
 
           <div id = "links">
-            <a href="index.html"><img src="img/NEWLOGO.png" alt="DD icon"></a>
-            <a href="pages/about.html">About</a>
-            <a href="pages/menu.html">Menu</a>
+            <a href="pages/about.html">About</a> |
+            <a href="pages/menu.html">Menu</a> |
             <a href="pages/contact.html">Contact</a>
           </div>
 
