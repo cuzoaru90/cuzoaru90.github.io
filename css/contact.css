@@ -2,3 +2,37 @@
 Stylesheet for contact page
 */
 
+#contact{
+  background-image: url("../img/storefront.jpg");
+  background-size: 100%;
+  background-position: center;
+  padding: 2.5%;
+  background-repeat: no-repeat;
+  height: 100%;
+  color: white;
+  font-size: 1.5em;
+}
+
+#contact h1{
+  font-family: roboto;
+  text-align: center;
+}
+
+#wrapper{
+  width: 35%;
+  margin-left: 30%;
+  border-radius: 6px;
+  background: rgb(230, 230, 230, 0.7); 
+  z-index: 1;
+}
+
+#info{
+  background: yellow;	
+}
+#map{
+  float: right;
+}
+
+footer{
+  clear: both;	
+}
