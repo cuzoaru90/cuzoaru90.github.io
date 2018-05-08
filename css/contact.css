@@ -8,13 +8,13 @@ Stylesheet for contact page
   background-position: center;
   padding: 2.5%;
   background-repeat: no-repeat;
+  font-family: roboto;
   height: 100%;
   color: white;
   font-size: 1.5em;
 }
 
 #contact h1{
-  font-family: roboto;
   text-align: center;
 }
 
@@ -22,14 +22,53 @@ Stylesheet for contact page
   width: 35%;
   margin-left: 30%;
   border-radius: 6px;
-  background: rgb(230, 230, 230, 0.7); 
+  background: rgba(230, 230, 230, 0.7); 
   z-index: 1;
 }
 
 #info{
-  background: yellow;	
+  background: #f8f8e6;	
+  font-family: roboto;
+  padding: 5%;
 }
+
+#info p{
+  margin-left: 15%;  
+}
+
 #map{
+  margin-right: 30%;
+  float: right;
+}
+
+#map iframe{
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+}
+
+#interior{
+  margin-left: 10%;
+  height: 300px;
+  width: 70%;
+  margin-top: 2%;
+  background-image: url("../img/interior.jpg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat; 
+}
+
+input {
+    width: 20%;
+    display: block;
+    padding: 12px 20px;
+    margin: 8px 0;
+}
+
+#comments{
+  width: 50%;
+  padding: 3em 20px;
+  margin-right: 20%;
   float: right;
 }
 
