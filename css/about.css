@@ -2,6 +2,10 @@
 Stylesheet for about
 */
 
+html{
+  font-family: roboto;  
+}
+
 article{
   background-repeat: no-repeat;  
   background-image: url("../img/grounds.JPG");
@@ -13,7 +17,6 @@ article{
 }
 
 article h1, article p{
-  font-family: roboto;
   width: 30%;
   margin: 0 auto;
   text-align: center;

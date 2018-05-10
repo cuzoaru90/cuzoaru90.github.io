@@ -2,6 +2,10 @@
 Stylesheet for home page/index
 */
 
+html{
+  font-family: roboto;  
+}
+
 #landing{
   background-image: url("../img/coffee_and_chokolate.JPG");
   background-size: 100%;
@@ -14,16 +18,14 @@ Stylesheet for home page/index
 }
 
 #landing h1{
-  font-family: roboto;
   text-align: center;
 }
 
-#wrapper{
+.wrapper{
   width: 35%;
   height: 100%;
   margin-left: 30%;
-  border-radius: 6px;
-  background: rgba(230, 230, 230, 0.2); 
+  background: rgba(230, 230, 230, 0.4); 
   z-index: 1;
 }
 
@@ -35,96 +37,47 @@ Stylesheet for home page/index
 #summary p{
   width: 35%;
   margin-left: 30%;
-  font-family: roboto;
+}
+
+#slideshow{
+  padding: 1%;
 }
 
 #slideshow h1{
   text-align: center;  
 }
 
-.cycle-slideshow{
-  width: 40%;
-  margin-left: 25%;
-  margin-top: 2%;
-  border: 1px solid black;
+.bx-wrapper{
+  margin-left: 30%;
+  border: 2px solid black !important;
 }
 
-.cycle-slideshow img{ 
-  width: 100%;
-  height: auto;
-}
-
-.cycle-slideshow img.first{ 
-  display: block;
-}
-
-.cycle-pager { 
-  text-align: center; 
-  width: 100%; 
-  z-index: 500; 
-  position: absolute; 
-  bottom: 1px; 
-  overflow: hidden;
-}
-
-.cycle-pager span { 
-  font-family: arial; 
-  font-size: 50px; 
-  width: 16px; 
-  height: 16px; 
-  display: inline-block; 
-  color: #ddd; 
-  cursor: pointer; 
-}
-
-#hero-items div{
-  display: inline-block;
-  height: 300px;
-  width: 300px;
-  margin-top: 2%;
-  margin-left: 17%; 
-  font-family: roboto;
-  border: 1px solid black;
-}
-
-#fresh{
-  background-image: url("../img/bitten.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-#gif{
-  background-image: url("../img/vetsAdSmall.gif");  
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-#mondays{
+#hero-items{
   background-image: url("../img/people.jpg");  
   background-size: 100%;
   background-repeat: no-repeat; 
-  background-position: center;
-  height: 100%;
-  width: 70%;
-  padding-bottom: 30%;
-  margin-top: 2%;
-  text-align: center;
-  color: white;
+  background-position: center;  
+  padding-bottom: 5%;
+  padding-top: 2%;
 }
 
-#mondays h1{
-  font-family: roboto;
-  width: 35%;
-  margin-left: 30%;
-  clear: both;
+#hero-items img{
+  margin-left: 15%;  
+  width: 20%; 
 }
 
-#hero-items div{
-  padding: 2%;
-  max-height: 200px;
-  max-width: 200px;
+iframe{
+  width: 30%;
+  margin-left: 10%;
 }
 
+#hero-items img:first-child{
+  margin-left: 35%;  
+}
+
+#hero-items h1{
+  text-align: center;  
+}
 
 @media only screen and (max-width: 780px) {
 
@@ -132,16 +85,8 @@ Stylesheet for home page/index
     font-size: 1.2em;
   }
 
-  #hero-items div{
-    padding: 2%;
-    max-height: 100px;
-    max-width: 100px;
-  }
-
-  #mondays h1{
-    width: 55%;
-    margin-left: 30%;
-    clear: both;
+  iframe{
+    height: 100%;  
   }
 
 }
@@ -153,23 +98,8 @@ Stylesheet for home page/index
     font-size: 1.0em;
   }
 
-  #hero-items div{
-    padding: 2%;
-    max-height: 50px;
-    max-width: 50px;
-  }
-
-  .cycle-pager span {  
-    font-size: 30px; 
-    display: inline-block; 
-    color: #ddd; 
-    cursor: pointer; 
-}
-
-  #mondays h1{
-    width: 55%;
-    margin-left: 30%;
-    clear: both;
+  iframe{
+    height: 100%;  
   }
 
 }

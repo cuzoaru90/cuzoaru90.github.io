@@ -18,7 +18,7 @@ Stylesheet for contact page
   text-align: center;
 }
 
-#wrapper{
+.wrapper{
   width: 35%;
   margin-left: 30%;
   border-radius: 6px;
@@ -85,6 +85,12 @@ input[type=submit]{
   background-position: center bottom;
   background-repeat: no-repeat; 
   width: 70%;
+  float: left;
+}
+
+#subscription{
+  background: pink;
+  float: right;
 }
 
 #questions h1{
