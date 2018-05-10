@@ -174,7 +174,7 @@ footer{
 
 footer div{
   width: 33%;
-  margin-top: 2%;
+  margin-top: 6%;
   float: left; 
   font-family: montserrat;
   font-size: 0.7em;   
@@ -199,7 +199,7 @@ footer div{
 
 #links{
   text-align: center;
-  margin-top: 5%; 
+  margin-top: 7%; 
 }
 
 #links a{
@@ -208,8 +208,7 @@ footer div{
 }
 
 #copyright{
-  margin-top: 4%;
-
+  margin-top: 7%;
 }
 
 #blue{
