@@ -44,7 +44,7 @@ html{
 }
 
 .bx-wrapper{
-  margin-left: 30%;
+  margin-left: 25%;
   border: 2px solid black !important;
 }
 
@@ -59,12 +59,14 @@ html{
 
 #hero-items img{
   margin-left: 15%;  
-  width: 20%; 
+  width: 20%;
+  border: 2px solid white; 
 }
 
 iframe{
   width: 30%;
   margin-left: 10%;
+  border: 2px solid white;
 }
 
 #hero-items img:first-child{
