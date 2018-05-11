@@ -61,11 +61,6 @@ footer{
     font-size: 0.8em;
   }
 
-  #menu-details h1, #menu-details p{
-    width: 70%;
-    margin-left: 20%;
-  }
-
   div{
     float: none;
     margin-left: 30%; 

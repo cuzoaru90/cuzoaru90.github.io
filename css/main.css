@@ -124,8 +124,7 @@ header{
 }
 
 #logo{
-  min-height: 50px;
-  min-width: 50px;
+  min-width: 30px;
   height: 20%;
   width: 20%;
   margin-left: 10%;
@@ -333,13 +332,18 @@ footer div{
   }
 
   #logo{
-    margin-top: .25%;
-
+    margin-top: 2.5%;
+    width: 80px;
   }
 
   footer div{
     float: left;
     width: 33%;  
+  }
+
+  #social h2{
+    text-align: center;
+    margin-left: 9%;   
   }
 
 }
@@ -358,6 +362,11 @@ footer div{
 
   #logo{
     margin-top: 3%;  
+    width: 60px;
+  }
+
+  header{
+    height: 50px;  
   }
 
   footer div{
