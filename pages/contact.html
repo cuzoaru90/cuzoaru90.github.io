@@ -39,10 +39,8 @@
         </header> 
 
         <main>
-          <section id = "contact">
-            <div id = "wrapper">  
-              <h1>Get in Touch</h1>
-            </div>  
+          <section id = "contact"> 
+            <h1 class="wrapper">Get in Touch</h1>
           </section>
 
           <section id = "info">
@@ -65,16 +63,21 @@
           <container>
           <section id = "questions">
             <h1> Questions? </h1>
+            <div class = "background">
+              <p>Subscribe to our newsletter for the latest on our seasonal offerings and special events:</p>
+              <p>Please leave any comments about your experience at our shop. Enjoy!</p>
+            </div>
             <form action="https://formspree.io/cuzoaru90@gmail.com" method="POST">
-                <input type="text" name="name" placeholder="Name">
-                <input type="email" name="_replyto" id = "email" placeholder="Email">
+                <input type="text" name="name" placeholder="Name" required>
+                <input type="email" name="_replyto" id = "email" placeholder="Email" required>
                 <input type="text" name="subject" placeholder="Subject">  
                 <input type="text" name="comments" id = "comments" placeholder="Comments">
+                <div>
+                  <input type="checkbox" id="subscribeNews" name="subscribe" value="newsletter">
+                  <label for="subscribeNews">Subscribe?</label>
+                </div>
                 <input type="submit"  value="Send">
             </form>
-            <aside id = "subscription">
-            <p>Subscribe to our newsletter for the latest on our seasonal offerings and special events:</p>
-          </aside>
           </section>
           </container>
             
@@ -89,7 +92,10 @@
             <img src="../img/twitter.png" alt="Twitter">
           </div>
 
-          <div>   
+          <div id = "links">
+            <a href="pages/about.html">About</a> |
+            <a href="pages/menu.html">Menu</a> |
+            <a href="pages/contact.html">Contact</a>
           </div>
 
           <div id = "copyright">
@@ -108,7 +114,7 @@
         <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
         <script>
             window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
-            ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
+            ga('create','UA-119002565-1','auto');ga('send','pageview')
         </script>
         <script src="https://www.google-analytics.com/analytics.js" async defer></script>
     </body>

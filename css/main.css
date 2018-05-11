@@ -166,6 +166,13 @@ nav li a:hover {
   background-color: #778899;
 }
 
+.wrapper{
+  width: 35%;
+  margin-left: 30%;
+  background: rgba(230, 230, 230, 0.4); 
+  z-index: 1;
+}
+
 footer{
   background: linear-gradient(to bottom, #9966ff 0%, #ccccff 100%); 
   width: 100%;
@@ -211,11 +218,6 @@ footer div{
   margin-top: 5%;
   text-align: center;
 }
-
-#blue{
-  background: blue;    
-}
-
 
 /* ==========================================================================
    Helper classes
