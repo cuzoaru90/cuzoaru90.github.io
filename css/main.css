@@ -190,7 +190,7 @@ footer div{
   text-align: center;   
 }
 
-#social img{
+#social a{
   float: left;
   min-height: 20px;
   min-width: 20px; 
@@ -199,7 +199,15 @@ footer div{
   padding-right: 1%; 
 }
 
-#social img:nth-child(2){
+#social img{
+  min-height: 20px;
+  min-width: 20px; 
+  height: 5%;
+  width: 5%; 
+  padding-right: 1%; 
+}
+
+#social a:nth-child(2){
   margin-left: 38.5%; 
 }
 
@@ -375,7 +383,7 @@ footer div{
     margin-top: 8%;
   }
 
-  #social img:nth-child(2){
+  #social a:nth-child(2){
     margin-left: 20%; 
   }
 
