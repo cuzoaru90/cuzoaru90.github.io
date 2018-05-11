@@ -86,11 +86,7 @@ input[type=submit]{
   background: pink;
 }
 
-#questions h1{
-  text-align: center;
-}
-
-#questions p{
+#questions h1, #questions p{
   text-align: center;
 }
 
@@ -116,4 +112,12 @@ form div{
 
 footer{
   clear: both;	
+}
+
+@media only screen and (max-width: 380px) {
+  #questions h1, #questions p{
+    color: white;
+  }    
+
+
 }
